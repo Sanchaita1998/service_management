@@ -1,0 +1,242 @@
+ERROR - 2024-11-16 17:16:12 --> mysqli_sql_exception: Can't create table `service_management`.`notifications` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `n...', 0)
+#1 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `n...')
+#2 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `n...')
+#3 C:\xampp_new\htdocs\service_management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `n...')
+#4 C:\xampp_new\htdocs\service_management\app\Database\Migrations\2024-11-16-165824_CreateNotificationsTable.php(45): CodeIgniter\Database\Forge->createTable('notifications')
+#5 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateNotificationsTable->up()
+#6 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp_new\htdocs\service_management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp_new\htdocs\service_management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp_new\htdocs\service_management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp_new\htdocs\service_management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp_new\htdocs\service_management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp_new\htdocs\service_management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-16 17:18:03 --> mysqli_sql_exception: Can't create table `service_management`.`notifications` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `n...', 0)
+#1 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `n...')
+#2 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `n...')
+#3 C:\xampp_new\htdocs\service_management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `n...')
+#4 C:\xampp_new\htdocs\service_management\app\Database\Migrations\2024-11-16-165824_CreateNotificationsTable.php(45): CodeIgniter\Database\Forge->createTable('notifications')
+#5 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateNotificationsTable->up()
+#6 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp_new\htdocs\service_management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp_new\htdocs\service_management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp_new\htdocs\service_management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp_new\htdocs\service_management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp_new\htdocs\service_management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp_new\htdocs\service_management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-16 17:39:42 --> mysqli_sql_exception: Can't create table `service_management`.`notifications` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `n...', 0)
+#1 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `n...')
+#2 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `n...')
+#3 C:\xampp_new\htdocs\service_management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `n...')
+#4 C:\xampp_new\htdocs\service_management\app\Database\Migrations\2024-11-16-013057_Notifications.php(45): CodeIgniter\Database\Forge->createTable('notifications')
+#5 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateNotificationsTable->up()
+#6 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp_new\htdocs\service_management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp_new\htdocs\service_management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp_new\htdocs\service_management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp_new\htdocs\service_management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp_new\htdocs\service_management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp_new\htdocs\service_management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-16 17:42:28 --> mysqli_sql_exception: Can't create table `service_management`.`notifications` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `n...', 0)
+#1 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `n...')
+#2 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `n...')
+#3 C:\xampp_new\htdocs\service_management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `n...')
+#4 C:\xampp_new\htdocs\service_management\app\Database\Migrations\2024-11-16-013057_Notifications.php(45): CodeIgniter\Database\Forge->createTable('notifications')
+#5 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateNotificationsTable->up()
+#6 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp_new\htdocs\service_management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp_new\htdocs\service_management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp_new\htdocs\service_management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp_new\htdocs\service_management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp_new\htdocs\service_management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp_new\htdocs\service_management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-16 17:43:52 --> mysqli_sql_exception: Can't create table `service_management`.`notifications` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `n...', 0)
+#1 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `n...')
+#2 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `n...')
+#3 C:\xampp_new\htdocs\service_management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `n...')
+#4 C:\xampp_new\htdocs\service_management\app\Database\Migrations\2024-11-16-013057_Notifications.php(44): CodeIgniter\Database\Forge->createTable('notifications')
+#5 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateNotificationsTable->up()
+#6 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp_new\htdocs\service_management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp_new\htdocs\service_management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp_new\htdocs\service_management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp_new\htdocs\service_management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp_new\htdocs\service_management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp_new\htdocs\service_management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-16 17:45:53 --> mysqli_sql_exception: Can't create table `service_management`.`notifications` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `n...', 0)
+#1 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `n...')
+#2 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `n...')
+#3 C:\xampp_new\htdocs\service_management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `n...')
+#4 C:\xampp_new\htdocs\service_management\app\Database\Migrations\2024-11-16-013057_Notifications.php(44): CodeIgniter\Database\Forge->createTable('notifications')
+#5 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateNotificationsTable->up()
+#6 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp_new\htdocs\service_management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp_new\htdocs\service_management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp_new\htdocs\service_management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp_new\htdocs\service_management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp_new\htdocs\service_management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp_new\htdocs\service_management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-16 17:47:46 --> mysqli_sql_exception: Can't create table `service_management`.`notifications` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `n...', 0)
+#1 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `n...')
+#2 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `n...')
+#3 C:\xampp_new\htdocs\service_management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `n...')
+#4 C:\xampp_new\htdocs\service_management\app\Database\Migrations\2024-11-16-013057_Notifications.php(39): CodeIgniter\Database\Forge->createTable('notifications')
+#5 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateNotificationsTable->up()
+#6 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp_new\htdocs\service_management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp_new\htdocs\service_management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp_new\htdocs\service_management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp_new\htdocs\service_management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp_new\htdocs\service_management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp_new\htdocs\service_management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-16 17:58:17 --> mysqli_sql_exception: Invalid default value for 'created_at' in C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `s...', 0)
+#1 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `s...')
+#2 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `s...')
+#3 C:\xampp_new\htdocs\service_management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `s...')
+#4 C:\xampp_new\htdocs\service_management\app\Database\Migrations\2022-01-31-013057_Create_Service_Management_Tables.php(49): CodeIgniter\Database\Forge->createTable('services')
+#5 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateServiceManagementTables->up()
+#6 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp_new\htdocs\service_management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp_new\htdocs\service_management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp_new\htdocs\service_management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp_new\htdocs\service_management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp_new\htdocs\service_management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp_new\htdocs\service_management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-16 17:58:40 --> mysqli_sql_exception: Invalid default value for 'created_at' in C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `s...', 0)
+#1 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `s...')
+#2 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `s...')
+#3 C:\xampp_new\htdocs\service_management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `s...')
+#4 C:\xampp_new\htdocs\service_management\app\Database\Migrations\2022-01-31-013057_Service_Management_Tables.php(49): CodeIgniter\Database\Forge->createTable('services')
+#5 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateServiceManagementTables->up()
+#6 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp_new\htdocs\service_management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp_new\htdocs\service_management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp_new\htdocs\service_management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp_new\htdocs\service_management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp_new\htdocs\service_management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp_new\htdocs\service_management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-16 18:07:41 --> mysqli_sql_exception: Invalid default value for 'created_at' in C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp_new\htdocs\service_management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp_new\htdocs\service_management\app\Database\Migrations\2022-01-31-013057_Admin.php(42): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateAdminTable->up()
+#6 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp_new\htdocs\service_management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp_new\htdocs\service_management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp_new\htdocs\service_management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp_new\htdocs\service_management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp_new\htdocs\service_management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp_new\htdocs\service_management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-16 18:08:47 --> mysqli_sql_exception: Invalid default value for 'created_at' in C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp_new\htdocs\service_management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp_new\htdocs\service_management\app\Database\Migrations\2022-01-31-013057_Admin.php(44): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateAdminTable->up()
+#6 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp_new\htdocs\service_management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp_new\htdocs\service_management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp_new\htdocs\service_management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp_new\htdocs\service_management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp_new\htdocs\service_management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp_new\htdocs\service_management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-16 18:09:18 --> mysqli_sql_exception: Invalid default value for 'updated_at' in C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp_new\htdocs\service_management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp_new\htdocs\service_management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp_new\htdocs\service_management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp_new\htdocs\service_management\app\Database\Migrations\2022-01-31-013057_Admin.php(45): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateAdminTable->up()
+#6 C:\xampp_new\htdocs\service_management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp_new\htdocs\service_management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp_new\htdocs\service_management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp_new\htdocs\service_management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp_new\htdocs\service_management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp_new\htdocs\service_management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp_new\htdocs\service_management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-16 18:23:11 --> Error: Class "App\Models\AdminModel" not found
+[Method: POST, Route: login]
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp_new\\htdocs\\service_management\\public\\index.php')
+CRITICAL - 2024-11-16 18:23:26 --> Error: Class "App\Models\AdminModel" not found
+[Method: POST, Route: login]
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp_new\\htdocs\\service_management\\public\\index.php')
+CRITICAL - 2024-11-16 18:24:06 --> Error: Class "App\Models\AdminModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp_new\\htdocs\\service_management\\public\\index.php')
+CRITICAL - 2024-11-16 18:25:00 --> Error: Class "App\Models\AdminModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp_new\\htdocs\\service_management\\public\\index.php')
+CRITICAL - 2024-11-16 18:25:11 --> Error: Class "App\Models\AdminModel" not found
+[Method: GET, Route: login]
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp_new\\htdocs\\service_management\\public\\index.php')
